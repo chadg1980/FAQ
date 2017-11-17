@@ -8383,6 +8383,6 @@ a.text-dark:focus, a.text-dark:hover {
   padding-top: 3%;
 };
 
-.hidden {
-     display:none;
-};
+#accordion1 {
+  padding-top: 100px;
+}
