@@ -641,6 +641,18 @@ pre code {
   margin-left: auto;
 }
 
+@media (min-width: 200px) {
+  .mt-5 {
+    font-size: 20px;
+  }
+  .accordion-toggle {
+    font-size: 12px;
+  }
+  .logo {
+    height: 30px;
+  }
+}
+
 @media (min-width: 360px) {
   .mt-5 {
     font-size: 30px;
