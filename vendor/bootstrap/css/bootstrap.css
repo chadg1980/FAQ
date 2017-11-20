@@ -649,7 +649,7 @@ pre code {
     font-size: 12px;
   }
   .logo {
-    height: 30px;
+    height: 25px;
   }
 }
 
@@ -659,6 +659,9 @@ pre code {
   }
   .accordion-toggle {
     font-size: 14px;
+  }
+  .logo {
+    height: 30px;
   }
 }
 
@@ -672,6 +675,9 @@ pre code {
   .accordion-toggle {
     font-size: 18px;
   }
+  .logo {
+    height: 35px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -684,6 +690,9 @@ pre code {
   .accordion-toggle {
     font-size: 18px;
   }
+  .logo {
+    height: 35px;
+  }
 }
 
 @media (min-width: 992px) {
@@ -695,6 +704,9 @@ pre code {
   }
   .accordion-toggle {
     font-size: 18px;
+  }
+  .logo {
+    height: 40px;
   }
 }
 
