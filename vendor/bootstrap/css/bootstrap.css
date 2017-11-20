@@ -641,9 +641,18 @@ pre code {
   margin-left: auto;
 }
 
+@media (min-width: 360px) {
+  .mt-5 {
+    font-size: 30px;
+  }
+}
+
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
+  }
+  .mt-5 {
+    font-size: 45px;
   }
 }
 
@@ -651,11 +660,17 @@ pre code {
   .container {
     max-width: 720px;
   }
+  .mt-5 {
+    font-size: 45px;
+  }
 }
 
 @media (min-width: 992px) {
   .container {
     max-width: 960px;
+  }
+  .mt-5 {
+    font-size: 45px;
   }
 }
 
