@@ -3,12 +3,13 @@ $(document).ready(function(){
 
 	if(hash){
 		$(hash).find('a').click();
+		$('html, body').animate({
+		scrollTop: $(hash).offset().top
+	}, 'slow');
 	}
 
 
-	$('html, body').animate({
-		scrollTop: $(hash).offset().top
-	}, 'slow');
+	
 
 
 });
