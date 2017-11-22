@@ -114,9 +114,11 @@
 
 .cell {
   margin: 1rem;
-  border: 1px solid gray;
+  border: 1px solid #e0e0e0;
+  padding: 1%;
 }
 
 .cellhead {
   text-align: center;
+  padding: 2%;
 }
