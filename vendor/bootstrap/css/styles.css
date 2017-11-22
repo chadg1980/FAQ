@@ -24,7 +24,7 @@
 }
 .panel-default > .panel-heading + .panel-collapse .panel-body {
   border: none;
-  padding: 0 0 0 32px;
+  /*padding: 0 0 0 32px;*/
 }
 .panel-default h5 {
   font: 300 19px "Open Sans", Arial, sans-serif;
@@ -94,4 +94,50 @@
 
 .note{
   font-size: 80%;
+}
+
+/*index page css */
+.responsive-image {
+  max-width: 100%;
+}
+
+.cell img {
+  display: block;
+}
+
+@media screen and (min-width: 1000px) {
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .cell {
+   width: calc(25% - 2rem);
+   padding: 2%;
+  }
+  .cellhead {
+    font-size: 18px;
+  }
+}
+
+
+.cell {
+  margin: 1rem;
+  border: 1px solid #e0e0e0;
+  padding: 1%;
+}
+
+.cell:hover {
+opacity: .5;
+-webkit-filter:
+grayscale(100%);
+}
+
+.cellhead {
+  text-align: center;
+  padding: 2%;
+}
+
+#othericon {
+  padding-right: 2%;
 }
