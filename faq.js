@@ -32,6 +32,17 @@ $(document).ready(function(){
 	$('#other').click(function(){
 		location.href="other.html"
 	});
+	$('#body_trace_scale').click(function(){
+		location.href="bodytrace.html"
+	});
+	$('#nokia_scale').click(function(){
+		location.href="nokia.html"
+	});
+	$('#aria_scale').click(function(){
+		location.href="aria.html"
+	});
+
+
 
 
 });
