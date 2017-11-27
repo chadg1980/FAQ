@@ -28,7 +28,7 @@ $(document).ready(function(){
 	$('#messaging_and_communication').click(function(){
 		location.href="messaging_and_communication.html"
 	});
-	
+
 	$('#other').click(function(){
 		location.href="other.html"
 	});
@@ -40,6 +40,15 @@ $(document).ready(function(){
 	});
 	$('#aria_scale').click(function(){
 		location.href="aria.html"
+	});
+	$('#fitbit_tracker').click(function(){
+		location.href="fitbit.html"
+	});
+	$('#google_fit').click(function(){
+		location.href="googlefit.html"
+	});
+	$('#apple_healthkit').click(function(){
+		location.href="applehealthkit.html"
 	});
 
 
