@@ -75,191 +75,53 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-left header">
-          <h1 class="mt-5">Step Related Issues</h1>
+          <h1 class="mt-5">Physical Activity and Tracking</h1>
           <hr>
           <div class="container" height="100%">
 	<div class="panel-group" id="accordion1">
 
         <!-- Installing Fitbit on SmartPhone -->
-        <div id = "installing_fitbit_on_smartphone" class="panel panel-default">
+        <div id="scale_related_issues" class="panel panel-default">
           <div class="panel-heading">
             <h5 class="panel-title">
-              <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion1" href="#accordion1_1">Installing Fitbit on SmartPhone</a>
-            </h5>
+            <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion1" href="#accordion1_1">Step Tracking Device</a>
+          </h5>
           </div>
-          <div id="accordion1_1" class="panel-collapse collapse">
+
+          <div id="accordion1_1" class="panel-collapse collapse in">
             <div class="panel-body">
-              <br>
-              <ol>
-              <li>"Download and install the Fitbit app on your phone. Ensure Bluetooth is enabled. </li>
-              <img  class="img-fluid dropicon" alt="picture of Fitbit icon">
-              <img  class="img-fluid dropicon" alt="picture of bluetooth icon">
-              <li>Sync your Fitbit device to the Fitbit app, please select <strong>Account</strong> <img class="img-fluid dropicon" alt="picture of account icon"> from the home screen of your Fitbit app.</li><li>Select Set up a <strong>Device</strong>.</li>
-              <img alt="picture of Set Up a Device">
-              <li>Select the Fitbit device you have (ensure Bluetooth is enabled on your phone). </li>
-              <img class="img-fluid dropicon" alt="Picture asking which fitbit tracker are you setting up">
-              <p> For any further assistance setting up your Fitbit device or account, please <a href="http://help.fitbit.com/?cu=1" target="_blank"> Contact Fitbit Support </a>
-              <li>Open the HealthSlate app.</li>
-              <img class="img-fluid dropicon" alt="Picture of HealthSlate icon">
-              <li>From the HealthSlate app home screen: </li>
-              <ol type="a">
-                <li>iOS device: select <strong>More</strong> <img class="img-fluid dropicon" alt="Picture of more icon"> Inserting image... and select <strong>Settings</strong><img clas="img-fluid dropimg" alt="iPhone settings button">.</li>
-                <li>Android device: select the menu <img class="img-fluid dropicon" alt="Android menu icon"> Inserting image... icon in the top left corner of the screen and select <strong>Settings</strong>. </li>
-                <img class="img-fluid dropimg" alt="Picture of Manage Device Sync button">
-                <li>Select <strong>Manage Fitbit devices</strong>.
-                  <img class="img-fluid dropimg" alt="Picture of Manage Fitbit devices button">
-                  <li>Check the box next to <strong>Fitbit</strong> and select <strong>Authorize</strong> </li>
-                  <img class="img-fluid dropimg" alt="Picture of Authorize Fitbit screen">
-                  <li>Enter your email and password that you used with your Fitbit app and select <strong>Log In</strong>, to confirm the authorization process.</li>
-                  <img class="img-fluid dropimg" alt="Picture of Fitbit Log in screen">
-              </ol>
-              <li>Select <strong>Manage Device Sync</strong>. </li>
+              <br> Please select the type of step tracker you have:
+              <div class="grid">
+                <div id="body_trace_scale" class="cell">
+                  <img src="assets/images/fitbit.png" class="responsive-image">
+                  <hr>
+                  <h3 class="cellhead">FitBit Tracker</h3>
+                </div>
+                <div id="nokia_scale" class="cell">
+                  <img src="assets/images/googlefit.png" class="responsive-image">
+                  <hr>
+                  <h3 class="cellhead">Google Fit (Android)</h3>
+                </div>
+                <div id="aria_scale" class="cell">
+                  <img src="assets/images/applehealthkit.png" class="responsive-image" style="padding-bottom: 5%;">
+                  <hr>
+                  <h3 class="cellhead">Apple Health Kit (iPhone)</h3>
+                </div>
+              </div>
 
             </div>
             <br>
           </div>
         </div>
-
-        <!-- Installing Fitbit on Mac or PC  -->
-        <div id="installing_fitbit_on_mac_or_pc" class="panel panel-default">
-          <div class="panel-heading">
-            <h5 class="panel-title">
-              <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion1" href="#accordion1_2">Installing Fitbit on Mac or PC</a>
-            </h5>
-          </div>
-          <div id="accordion1_2" class="panel-collapse collapse">
-            <div class="panel-body">
-
-                <br>
-                Fitbit has a quick article on how to setup your Fitbit device on their   <a href="https://help.fitbit.com/articles/en_US/Help_article/1873">website</a>. Select the link and scroll down, you'll see directions for setting up your Fitbit with phones, tablets, Windows computers and a MAC.<br>
-                <img src="assets/images/appstore.png" class="img-fluid dropimg" alt="Picture of Fitbit help website">
-
-            </div>
-          </div>
-        </div>
-
-        <!-- Track Steps with iPhone/Setting up Apple HealthKit.-->
-        <div id="track_steps_with_iphone_setting_up_apple_healthkit" class="panel panel-default">
-          <div class="panel-heading">
-            <h5 class="panel-title">
-              <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion1" href="#accordion1_3">Track Steps with iPhone/Setting up Apple HealthKit.</a>
-            </h5>
-          </div>
-          <div id="accordion1_3" class="panel-collapse collapse">
-            <div class="panel-body">
-              <ol>
-                <br>
-                <li>From the HealthSlate app home screen, select <strong>More</strong> <img class="img-fluid dropicon" alt="Picture of more icon".</li>
-                <li> Select <strong>Settings.</strong>
-                  <img class="img-fluid dropimg" alt="Picture of settings button">
-                  <li> Select <strong>Manage Device Sync</strong>. </li>
-                  <img class="img-fluid dropimg" alt="Picture of Manage Device Sync button">
-                  <li> Select<strong> Enable HealthKit</strong>, this will allow your iPhone to track your steps.
-                  <img class="img-fluid dropimg" alt="Picture of Enable HealthKit button">
-              </ol>
-            </div>
-          </div>
-        </div>
-
-        <!-- Track Steps with Android/Setting up Google Fit  -->
-        <div id="track_steps_with_android_setting_up_google_fit" class="panel panel-default">
-          <div class="panel-heading">
-            <h5 class="panel-title">
-              <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion1" href="#accordion1_4">Track Steps with Android/Setting up Google Fit </a>
-            </h5>
-          </div>
-          <div id="accordion1_4" class="panel-collapse collapse">
-            <div class="panel-body">
-              <ol>
-                <li>Download and install the Google Fit app from the Play Store. </li>
-                <img class="img-fluid dropimg" alt="Picture of ">
-                <li>Log into Google Fit and link a Google account. </li>
-                <img class="img-fluid dropimg" alt="Picture of ">
-                <li>From the HealthSlate app home screen select the menu<img class="img-fluid dropicon" alt="Picture of Menu icon"> icon in the top left corner of the screen. </li>
-                <li>Select<strong> Settings</strong>. </li>
-                <img class="img-fluid dropimg" alt="Picture of Settings button">
-                <li>Select <strong>Manage Device Sync</strong>. </li>
-                <img class="img-fluid dropimg" alt="Picture of Manage Device Sync button">
-                <li>Select <strong>Enable Google Fit</strong>. </li>
-                <img class="img-fluid dropimg" alt="Picture of Enable Google Fit button">
-             </ol>
-            </div>
-          </div>
-        </div>
-
-        <!-- Receiving Your Fitbit Email Coupon -->
-        <!-- 6 -->
-        <div id="receiving_your_fitbit_email_coupon" class="panel panel-default">
-          <div class="panel-heading">
-            <h5 class="panel-title">
-              <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion1" href="#accordion1_6">Receiving Your Fitbit Email Coupon</a>
-            </h5>
-          </div>
-          <div id="accordion1_6" class="panel-collapse collapse">
-            <div class="panel-body">
-             Fitbit email coupons are sent to members who have been meaningfully engaged in the HealthSlate program during their first 4 weeks, and is typically sent between weeks 4 and 6 of the HealthSlate program. The email is sent from “support@solera4me.com” and the subject line will read "Redeem Your Fitbit Now."
-            </div>
-          </div>
-        </div>
-
-        <!-- Google Fit Steps Are Not Displaying/Syncing -->
-        <!-- 7 -->
-        <div id="google_Fit_steps_are_not_displaying_syncing" class="panel panel-default">
-          <div class="panel-heading">
-            <h5 class="panel-title">
-              <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion1" href="#accordion1_7">Google Fit Steps Are Not Displaying/Syncing</a>
-            </h5>
-          </div>
-          <div id="accordion1_7" class="panel-collapse collapse">
-            <div class="panel-body">
-              <ol>
-                <li>From the HealthSlate app home screen select the menu <img class="img-fluid dropicon" alt="Picture of menu icon"> icon in the top left corner of the screen and select <strong>Settings</strong>. </li>
-                <img class="img-fluid dropimg" alt="Picture of settings button">
-                <li>Select <strong>Manage Device Sync</strong>.</li>
-                <img class="img-fluid dropimg" alt="Picture of Manage Device Sync button">
-                <li>You should see the words <strong>Disable Google Fit</strong>, which means you've already enabled Google Fit. Select <strong>Disable Google Fit</strong> and then select <strong>Enable Google Fit</strong>.</li>
-                <img class="img-fluid dropimg" alt="Picture of Disable Google Fit button">
-                <li>The app may ask for permissions. Be sure to choose the same Gmail account that you used to set up your Google fit account and select <strong>Allow</strong>. This allows the HealthSlate app to receive steps from Google Fit. </li>
-                <img class="img-fluid dropimg" alt="Picture of HealthSlate permissions from Google Fit">
-              </ol>
-            </div>
-          </div>
-        </div>
-
-        <!-- Apple HealthKit Steps Are Not Displaying/Syncing  -->
-        <!-- 8 -->
-        <div id="apple_healthkit_steps_are_not_displaying_syncing" class="panel panel-default">
-          <div class="panel-heading">
-            <h5 class="panel-title">
-              <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion1" href="#accordion1_8">Apple HealthKit Steps Are Not Displaying/Syncing</a>
-            </h5>
-          </div>
-          <div id="accordion1_8" class="panel-collapse collapse">
-            <div class="panel-body">
-               <ol>
-                <li>From the HealthSlate app home screen, select <strong>More</strong> <img class="img-fluid dropicon" alt="Picture of More icon">.</li>
-                <li>Select <strong>Settings</strong>.</li>
-                <img class="img-fluid dropimg" alt="Picture of Settings button">
-                <li>Select <strong>Manage Device Sync</strong>. </li>
-                <img class="img-fluid dropimg" alt="Picture of">
-                <li>Select <strong>Disable HealthKit</strong>. This will allow your iPhone to track your steps.</li>
-                <img class="img-fluid dropimg" alt="Picture of Disagble HealthKit button">
-                <li>Select <strong>Enable HealthKit</strong> this will allow your iPhone to track your steps. </li>
-                <img class="img-fluid dropimg" alt="Picture of Enable HealthKit button">
-               </ol>
-            </div>
-          </div>
-        </div>
-
         <!-- Step Calculation While Participating in the Step Challenge -->
         <!-- 9 -->
         <div id="step_calculation_while_participating_in_the_Step_challenge" class="panel panel-default">
           <div class="panel-heading">
             <h5 class="panel-title">
-              <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion1" href="#accordion1_9">Step Calculation While Participating in the Step Challenge</a>
+              <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion2" href="#accordion1_2">Step Calculation While Participating in the Step Challenge</a>
             </h5>
           </div>
-          <div id="accordion1_9" class="panel-collapse collapse">
+          <div id="accordion1_2" class="panel-collapse collapse">
             <div class="panel-body">
               The Step Challenge displays the average number of steps taken since Monday.
             </div>
@@ -271,10 +133,10 @@
         <div id="incorrect_name_displaying_from_step_challenge" class="panel panel-default">
           <div class="panel-heading">
             <h5 class="panel-title">
-              <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion1" href="#accordion1_10">Incorrect Name Displaying from Step Challenge</a>
+              <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion3" href="#accordion1_3">Incorrect Name Displaying from Step Challenge</a>
             </h5>
           </div>
-          <div id="accordion1_10" class="panel-collapse collapse">
+          <div id="accordion1_3" class="panel-collapse collapse">
             <div class="panel-body">
               <ol>
                 <li> From the HealthSlate app home screen:
@@ -299,10 +161,10 @@
         <div id="alternate_step_tracking_devices" class="panel panel-default">
           <div class="panel-heading">
             <h5 class="panel-title">
-              <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion1" href="#accordion1_9">Alternate Step Tracking Devices</a>
+              <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion4" href="#accordion1_4">Alternate Step Tracking Devices</a>
             </h5>
           </div>
-          <div id="accordion1_9" class="panel-collapse collapse">
+          <div id="accordion1_4" class="panel-collapse collapse">
             <div class="panel-body">
               The HealthSlate app is only compatible with Google Fit, Apple HealthKit and FitBit.
               <img class="img-fluid dropicon" alt="Picture of Google Fit icon">
