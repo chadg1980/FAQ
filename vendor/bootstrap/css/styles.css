@@ -123,9 +123,26 @@
   .cell {
    width: calc(25% - 2rem);
    padding: 2%;
+   flex: 0 0 230px;
   }
   .cellhead {
     font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .cell {
+   width: calc(25% - 2rem);
+   padding: 2%;
+   flex: 0 0 230px;
+  }
+  .cellhead {
+    font-size: 12px;
   }
 }
 
@@ -133,6 +150,7 @@
   margin: 1rem;
   border: 1px solid #e0e0e0;
   padding: 1%;
+  flex: 0 0 230px;
 }
 
 .cell:hover {
