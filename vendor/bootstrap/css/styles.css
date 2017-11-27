@@ -151,6 +151,9 @@
   border: 1px solid #e0e0e0;
   padding: 1%;
   flex: 0 0 230px;
+  -webkit-box-shadow: 29px 34px 14px -27px rgba(0,0,0,0.75);
+  -moz-box-shadow: 29px 34px 14px -27px rgba(0,0,0,0.75);
+  box-shadow: 29px 34px 14px -27px rgba(0,0,0,0.75);
 }
 
 .cell:hover {
