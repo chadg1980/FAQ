@@ -123,7 +123,6 @@
   }
   .cell {
    width: calc(25% - 2rem);
-   padding: 2%;
    flex: 0 0 230px;
   }
   .cellhead {
@@ -139,7 +138,6 @@
   }
   .cell {
    width: calc(25% - 2rem);
-   padding: 2%;
    flex: 0 0 230px;
   }
   .cellhead {
@@ -170,4 +168,9 @@ grayscale(100%);
 
 #othericon {
   padding-right: 2%;
+}
+
+#fitbit {
+  padding-bottom: 7%;
+  padding-top: 7%;
 }
