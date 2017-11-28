@@ -114,11 +114,12 @@
   display: block;
 }
 
-@media screen and (min-width: 770px) {
+@media screen and (max-width: 600px) {
   .grid {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    margin-left: 10%;
   }
   .cell {
    width: calc(25% - 2rem);
