@@ -36,8 +36,8 @@
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
       <a href="index.html">
-      <img src="assets/images/logo.png" class="logo"/>
-    </a>
+        <img src="assets/images/logo.png" class="logo"/>
+      </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -82,142 +82,146 @@
         <div class="container" height="100%">
          <div class="panel-group" id="accordion1">
 
-                <!-- Enable apple HealthKit app to track steps on HealthSlate app -->
-                <!-- 1 -->
-                <div id="enable_apple_healthkit_app_to_track_steps_on_healthslate_app" class="panel panel-default">
-                  <div class="panel-heading">
-                    <h5 class="panel-title">
-                      <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion1" href="#accordion1_1">How do I set up Apple HealthKit with HealthSlate?</a>
-                    </h5>
-                  </div>
-                  <div id="accordion1_1" class="panel-collapse collapse">
-                    <div class="panel-body">
-                      <ol>
-                        <br>
-                        <p>
-                        <li>From the HealthSlate app home screen, select <strong>More</strong> <img class="img-fluid dropiconinline" src="assets/images/icon/moreiphone.png" alt="Picture of more icon"></li></p>
+          <!-- Apple HealthKit steps are not displaying on or syncing to the HealthSlate app appropriately  -->
+          <!-- 1 -->
+          <div id="apple_healthkit_steps_are_not_displaying_on_or_syncing_to_the_healthslate_app_appropriately" class="panel panel-default">
+            <div class="panel-heading">
+              <h5 class="panel-title">
+                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion1" href="#accordion1_1">Four things you can do to resolve your step Apple HealthKit syncing issue </a>
+              </h5>
+            </div>
+            <div id="accordion1_1" class="panel-collapse collapse">
+              <div class="panel-body">
+               <span class="note"><strong>Note: </strong>The Apple HealthKit steps do not update live to the HealthSlate app and there is a delay with the steps updating. The steps should catch up by the end of the day.</span>
+               <br>
+                <ol>
+                  <li>Confirm your steps are displaying from your Apple HealthKit app. </li>
+                  <ol type="a">
+                    <li>Select the Health app <img class="img-fluid dropiconinline" src="assets/images/icon/applehealthappicon.png" alt="Picture of Health icon"></li><br>
 
-                        <li> Select <strong>Settings.</strong></li>
-                        <div class="span4"></div>
-                        <div class="span4"><img class="img-fluid center-block dropimg" src="assets/images/settingsiphone.png" alt="Picture of settings button"></div>
-                        <div class="span4"></div>
+                    <li>Select <strong>Health Data</strong> <img class="img-fluid dropiconinline" src="assets/images/icon/healthdata.png" alt="Picture of Health data."> near the bottom of the screen </li><br>
 
+                    <li>Select <strong>Activity</strong>.</li>
+                    <img class="img-fluid center-block dropicon" src="assets/images/icon/applehealthactivityicon.png" alt="Picture of Apple Health activity icon.">
 
-                        <li> Select <strong>Manage Device Sync</strong>.</li>
-                        <div class="span4"></div>
-                        <div class="span4"><img class="img-fluid center-block dropimg" src="assets/images/managedevicesyncuniversal.png" alt="Picture of Manage Device Sync button."></div>
-                        <div class="span4"></div>
+                    <li>Select <strong>Steps</strong>.</li>
+                    <img class="img-fluid center-block dropimg" src="assets/images/applehealthstepsbutton.png" alt="Picture of Apple Health steps button.">
 
+                    <li>Are your steps displayed from this screen?</li>
+                      
+                  </ol>
 
-                        <li> Select<strong> Enable HealthKit</strong>.</li>
-                        <div class="span4"></div>
-                        <div class="span4"><img class="img-fluid center-block dropimg" src="assets/images/enablehealthkitiphone.png" alt="Picture of Enable HealthKit button"></div>
-                        <div class="span4"></div>
-                      </ol>
-                    </div>
-                  </div>
-                  </div>
+                  <li>If your Apple HealthKit steps do not display from the Health app, navigate to: <a href="https://support.apple.com/en-us/HT203037" target="_blank"> Apple HealthKit support</a></li><br>
 
-                  <!-- Apple HealthKit steps are not displaying on or syncing to the HealthSlate app appropriately  -->
-                  <!-- 2 -->
-                  <div id="apple_healthkit_steps_are_not_displaying_on_or_syncing_to_the_healthslate_app_appropriately" class="panel panel-default">
-                    <div class="panel-heading">
-                      <h5 class="panel-title">
-                        <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion1" href="#accordion1_2">Why isn't the HealthSlate app on my iPhone displaying the same steps as the HealthKit app?</a>
-                      </h5>
-                    </div>
-                    <div id="accordion1_2" class="panel-collapse collapse">
-                      <div class="panel-body">
-                        <br>
-                        <span class="note"><strong>Note: </strong>The Apple HealthKit steps do not update live to the HealthSlate app and there is a delay with the steps updating. The steps should catch up by the end of the day. </span>
-                       <ol>
-                        <li>Disable and re-enable Apple HealthKit from the HealthSlate app.</li>
-                        <ol type="a">
+                  <li>If your steps display from your Health app but do not display from the HealthSlate app, Confirm the appropriate permissions are granted.</li>
 
-                          <li>Select <strong>More</strong>
-                          <img class="img-fluid dropiconinline" src="assets/images/icon/moreiphone.png" alt="Picture of more icon"></li></p>
+                    <ol type="a">
 
-                          <li>Select <strong>Settings</strong>.</li>
-                          <img class="img-fluid center-block dropimg" src="assets/images/settingsiphone.png" alt="Picture of settings button">
+                      <li>Select <strong>Settings</strong> from your iOS device</li>
+                      <img class="img-fluid center-block dropicon" src="assets/images/icon/iphonesettingsiconiphone.png" alt="Picture of Enable HealthKit settings icon.">
 
+                      <li>Select <strong>Privacy</strong>.</li>
+                      <img class="img-fluid center-block dropimg" src="assets/images/applehealthprivacy.png" alt="Picture of iOS Privacy button.">
 
-                          <li> Select <strong>Manage Device Sync</strong>.</li>
-                          <img class="img-fluid center-block dropimg" src="assets/images/managedevicesyncuniversal.png" alt="Picture of Manage Device Sync button.">
+                      <li> Select <strong>Health</strong>.</li>
+                      <img class="img-fluid center-block dropimg" src="assets/images/applehealthbutton.png" alt="Picture of Health button.">
 
-                          <li>Select <strong>Disable HealthKit</strong>.</li>
-                          <div class="span4"></div>
-                          <div class="span4"><img class="img-fluid center-block dropimg" src="assets/images/disablehealthkitiphone.png" alt="Picture of Diable HealthKit button."></div>
-                          <div class="span4"></div>
+                      <li>Select <strong>HealthSlate</strong>.</li>
+                      <img class="img-fluid center-block dropimg" src="assets/images/applehealthhealthslate.png" alt="Picture of Apple health HealthSlate button.">
 
-                          <li> Select<strong> Enable HealthKit</strong>, this will allow your iPhone to track your steps. </li>
-                          <div class="span4"></div>
-                          <div class="span4"><img class="img-fluid center-block dropimg" src="assets/images/enablehealthkitiphone.png" alt="Picture of Enable HealthKit button."></div>
-                          <div class="span4"></div>
-                        </ol>
+                      <li>Enable <strong>Steps</strong>, <strong>Weights</strong>, and <strong>Workouts</strong>.</li>
+                      <img class="img-fluid center-block dropimg" src="assets/images/applehealthhealthslatescreenshot.png" alt="Picture of Allow HealthSlate write screen.">
 
-                        <li>Confirm the appropriate permissions are granted</li>
+                    </ol>
 
-                        <ol type="a">
+                  <li>If your steps still do not display from the HealthSlate app, disable and re-enable Apple HealthKit from the HealthSlate app.</li>
 
-                          <li>Select <strong>Settings</strong> from your iOS device</li>
-                          <img class="img-fluid center-block dropicon" src="assets/images/icon/iphonesettingsiconiphone.png" alt="Picture of Enable HealthKit settings icon.">
+                  <ol type="a">
 
-                          <li>Select <strong>Privacy</strong>.</li>
-                          <img class="img-fluid center-block dropimg" src="assets/images/applehealthprivacy.png" alt="Picture of iOS Privacy button.">
+                    <li>Select <strong>More</strong>
+                    <img class="img-fluid dropiconinline" src="assets/images/icon/moreiphone.png" alt="Picture of more icon."></li></p>
 
-                          <li> Select <strong>Health</strong>.</li>
-                          <img class="img-fluid center-block dropimg" src="assets/images/applehealthbutton.png" alt="Picture of Health button.">
+                    <li>Select <strong>Settings</strong>.</li>
+                    <img class="img-fluid center-block dropimg" src="assets/images/settingsiphone.png" alt="Picture of settings button.">
 
-                          <li>Select <strong>HealthSlate</strong>.</li>
-                          <img class="img-fluid center-block dropimg" src="assets/images/applehealthhealthslate.png" alt="Picture of Apple health HealthSlate button.">
+                    <li> Select <strong>Manage Device Sync</strong>.</li>
+                    <img class="img-fluid center-block dropimg" src="assets/images/managedevicesyncuniversal.png" alt="Picture of Manage Device Sync button.">
 
-                          <li>Enable <strong>Steps</strong>, <strong>Weights</strong>, and <strong>Workouts</strong>.</li>
-                          <img class="img-fluid center-block dropimg" src="assets/images/applehealthhealthslatescreenshot.png" alt="Picture of Allow HealthSlate write screen.">
+                    <li>Select <strong>Disable HealthKit</strong>.</li>
+
+                    <img class="img-fluid center-block dropimg" src="assets/images/disablehealthkitiphone.png" alt="Picture of Diable HealthKit button.">
+
+                    <li> Select<strong> Enable HealthKit</strong>, this will allow your iPhone to track your steps. </li>
+
+                    <img class="img-fluid center-block dropimg" src="assets/images/enablehealthkitiphone.png" alt="Picture of Enable HealthKit button.">
+
+                    </ol>
+
+                    <li>If the above solutions do not resolve your issue, please contact <a href="http://faq.healthslate.com/messaging_and_communication.html#message_tech_support_from_the_healthslate_app"> HealthSlate tech support</a>.</li>
 
 
-                        </ol>
-                        <li>If your Apple HealthKit steps still won’t sync to the HealthSlate app, navigate to:<a href="https://support.apple.com/en-us/HT203037" target="_blank"> Apple HealthKit support</a></li>
+                  </ol>
+                </div>
+              </div>
+            </div>
 
-                        <li>If the above solutions do not resolve your issue, please contact <a href="http://faq.healthslate.com/messaging_and_communication.html#message_tech_support_from_the_healthslate_app"> HealthSlate tech support</a>.</li>
+            <!-- Enable apple HealthKit app to track steps on HealthSlate app -->
+            <!-- 2 -->
+            <div id="enable_apple_healthkit_app_to_track_steps_on_healthslate_app" class="panel panel-default">
+              <div class="panel-heading">
+                <h5 class="panel-title">
+                  <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion1" href="#accordion1_2">How do I set up Apple HealthKit with HealthSlate?</a>
+                </h5>
+              </div>
+              <div id="accordion1_2" class="panel-collapse collapse">
+                <div class="panel-body">
+                  <ol>
+                    <br>
+                    <p>
+                      <li>From the HealthSlate app home screen, select <strong>More</strong> <img class="img-fluid dropiconinline" src="assets/images/icon/moreiphone.png" alt="Picture of more icon"></li></p>
 
+                      <li> Select <strong>Settings.</strong></li>
+                      <img class="img-fluid center-block dropimg" src="assets/images/settingsiphone.png" alt="Picture of settings button">
 
-                      </ol>
-                    </div>
+                      <li> Select <strong>Manage Device Sync</strong>.</li>
+                      <img class="img-fluid center-block dropimg" src="assets/images/managedevicesyncuniversal.png" alt="Picture of Manage Device Sync button.">
+
+                      <li> Select<strong> Enable HealthKit</strong>.</li>
+                      <img class="img-fluid center-block dropimg" src="assets/images/enablehealthkitiphone.png" alt="Picture of Enable HealthKit button">
+
+                    </ol>
                   </div>
                 </div>
+              </div>
 
 
-                <!-- Enable apple watch to track steps on HealthSlate app   -->
-                <!-- 3 -->
-                <div id="enable_apple_watch_to_track_steps_on_healthslate_app" class="panel panel-default">
-                  <div class="panel-heading">
-                    <h5 class="panel-title">
-                      <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion1" href="#accordion1_9">How do I set up my Apple Watch to sync to the HealthSlate app? </a>
-                    </h5>
-                  </div>
-                  <div id="accordion1_9" class="panel-collapse collapse">
-                    <div class="panel-body">
-                      <ol>
+
+
+              <!-- Enable apple watch to track steps on HealthSlate app   -->
+              <!-- 3 -->
+              <div id="enable_apple_watch_to_track_steps_on_healthslate_app" class="panel panel-default">
+                <div class="panel-heading">
+                  <h5 class="panel-title">
+                    <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion1" href="#accordion1_9">How do I set up my Apple Watch to sync to the HealthSlate app? </a>
+                  </h5>
+                </div>
+                <div id="accordion1_9" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <ol>
                       <br>
-                        <p>
+                      <p>
                         <li>From the HealthSlate app home screen, select <strong>More</strong> <img class="img-fluid dropiconinline" src="assets/images/icon/moreiphone.png" alt="Picture of more icon"></li></p>
 
                         <li> Select <strong>Settings</strong>.</li>
-                        <div class="span4"></div>
-                        <div class="span4"><img class="img-fluid center-block dropimg" src="assets/images/settingsiphone.png" alt="Picture of settings button"></div>
-                        <div class="span4"></div>
-
-
+                        <img class="img-fluid center-block dropimg" src="assets/images/settingsiphone.png" alt="Picture of settings button">
+                        
                         <li> Select <strong>Manage Device Sync</strong>.</li>
-                        <div class="span4"></div>
-                        <div class="span4"><img class="img-fluid center-block dropimg" src="assets/images/managedevicesyncuniversal.png" alt="Picture of Manage Device Sync button."></div>
-                        <div class="span4"></div>
-
+                        
+                        <img class="img-fluid center-block dropimg" src="assets/images/managedevicesyncuniversal.png" alt="Picture of Manage Device Sync button.">
 
                         <li> Select<strong> Enable HealthKit</strong>,  this will allow your Apple Watch to track your steps.  </li>
-                        <div class="span4"></div>
-                        <div class="span4"><img class="img-fluid center-block dropimg" src="assets/images/enablehealthkitiphone.png" alt="Picture of Enable HealthKit button"></div>
-                        <div class="span4"></div>
+                        <img class="img-fluid center-block dropimg" src="assets/images/enablehealthkitiphone.png" alt="Picture of Enable HealthKit button">
+                        
                       </ol>
                     </div>
                   </div>
