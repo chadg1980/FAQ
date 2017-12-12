@@ -100,6 +100,16 @@
   margin-right: auto;
 }
 
+.sidebyside{
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+#center-images{
+  text-align: center;
+}
 
 .note{
   font-size: 80%;
