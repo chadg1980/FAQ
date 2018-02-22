@@ -53,8 +53,5 @@ $(document).ready(function(){
 	$('#apple_healthkit').click(function(){
 		location.href="applehealthkit.html"
 	});
-
-
-
-
+	
 });
