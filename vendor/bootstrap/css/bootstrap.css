@@ -651,6 +651,9 @@ pre code {
   .logo {
     height: 25px;
   }
+  .mt-5, .my-5 {
+    margin-top: 1rem !important;
+}
 }
 
 @media (min-width: 360px) {
@@ -663,6 +666,9 @@ pre code {
   .logo {
     height: 30px;
   }
+  .mt-5, .my-5 {
+    margin-top: 1rem !important;
+}
 }
 
 @media (min-width: 576px) {
@@ -678,6 +684,9 @@ pre code {
   .logo {
     height: 35px;
   }
+  .mt-5, .my-5 {
+    margin-top: 1rem !important;
+}
 }
 
 @media (min-width: 768px) {
@@ -7048,7 +7057,7 @@ a.bg-dark:focus, a.bg-dark:hover {
 
 .mt-5,
 .my-5 {
-  margin-top: 3rem !important;
+  margin-top: 1rem !important;
 }
 
 .mr-5,

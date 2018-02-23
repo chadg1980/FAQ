@@ -124,6 +124,22 @@
   display: block;
 }
 
+.leanaclass{
+  display: flex;
+  padding-left: 10px;
+}
+.leanaclass img{
+  border-radius: 50%;
+  border: 1px solid blue;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.leanaclass ul{
+  
+  padding-left: 15px;
+}
+
 @media screen and (max-width: 600px) {
   .grid {
     display: flex;
@@ -138,8 +154,29 @@
   .cellhead {
     font-size: 18px;
   }
+  .leanaclass{
+    display: flex;
+    
+  }
+  .leanaclass img{
+    
+    border-radius: 50%;
+    border: 1px solid blue;
+    width: 600px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .dropimg {
+    border: 2px solid #8ab43f;
+    width:  250px;
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  
 }
-
+}
 @media screen and (min-width: 600px) {
   .grid {
     display: flex;
@@ -167,8 +204,8 @@
 
 .cell:hover {
 opacity: .5;
--webkit-filter:
-grayscale(100%);
+-webkit-filter:grayscale(100%);
+filter: grayscale(100%)
 }
 
 .cellhead {
