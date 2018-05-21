@@ -13,7 +13,7 @@ HealthSlate FAQ is the FAQ page created for the external of the HealthSlate app,
 
 ## Hosted
 * AWS S3 Bucket
-* AWS CloudFront, 
+* AWS CloudFront 
 * HealthSlate Android and iOS app
 
 
